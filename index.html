@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/stylemedia.css" />
+
+    <script src="script/script.js"></script>
+
+    <title>Notizblock</title>
+    <link rel="icon" type="img/x-icon" href="img/favicon.ico">
+</head>
+
+<body onload="init()">
+
+    <div class="head">
+        <div class="headline">
+            <h1>Meine Notizen!</h1>
+        </div>
+
+        <div class="content">
+            <div class="textField">
+                <input type="text" placeholder="Titel" id="titel" maxlength="15"> <br>
+                <input type="text" placeholder="Notiz" id="note" maxlength="50"> <br>
+            </div>
+            <div class="contentBtn">
+                <button onclick="addNote()" class="btn"><img src="img/add.png"></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="notesArea" id="content"></div>
+
+</body>
+
+</html>

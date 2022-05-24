@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    background-color: lightgray;
+    word-break: break-all;
+    /* background-image: url(../img/background.jpg);
+    background-size: 100%; */
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notesArea {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 14);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.contentBtn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 14);
+    width: 300px;
+    margin: 8px;
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.textField {
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.btn {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 14);
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: greenyellow;
+}

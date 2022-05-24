@@ -1,0 +1,11 @@
+@media(max-width:450px) {
+    h1 {
+        font-size: 1rem;
+    }
+    .head {
+        box-sizing: border-box;
+    }
+    .card {
+        flex-direction: column;
+    }
+}
